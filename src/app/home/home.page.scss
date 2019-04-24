@@ -1,0 +1,58 @@
+#content{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #f4faff;
+}
+
+h1{
+    text-align: left;
+    color: black;
+    font-size: 2em;
+    font-weight: 700;
+    padding: 20px;
+    font-family: Cereal Black;
+}
+
+div#content-align{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+    div.box-person{
+        margin: 10px 20px 10px 20px;
+        box-sizing: content-box;
+        cursor: pointer;
+
+        img{
+            height: 170px;
+            width: 170px;
+            box-shadow: 0 0 7px 1px gray;
+            border-radius: 50%;
+            background: url(../Resources/Joao.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        h3.name-person{
+            font-size: 1.5em;
+            font-weight: 800;
+            text-align: center;
+            color: #5893d4;
+            font-family: Cereal Medium;
+        }
+    }
+
+    div.box-person:nth-child(2) img{
+        background: url(../Resources/Gustavo.jpg);
+        background-size: cover;
+        background-position: left;
+        background-repeat: no-repeat;
+    }
+
+
+}
