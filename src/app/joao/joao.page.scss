@@ -1,0 +1,72 @@
+div#content{
+   background: #f5ffff;
+   height: 100%;
+}   
+
+// div#lines:after{
+//     content: '';
+//     height: 60px;
+//     width: 100%;
+//     background: #4c8492;
+//     position: relative;
+//     // top: 0;
+//     // left: -45%;
+//     // transform: rotate(-45deg);
+//     z-index: 1;
+// }
+
+// div#lines:before{
+//     content: '';
+//     height: 60px;
+//     width: 100%;
+//     background: #fffde8;
+//     position: relative;
+//     // top: 60px;
+//     // left: -45%;
+//     // transform: rotate(-45deg);
+//     z-index: 1;
+// }
+
+div#curriculum-header{
+    width: 100%;
+    background: transparent;
+    z-index: 2;
+    position: absolute;
+
+    div#lines{
+        height: 60px;
+        width: 100%;
+        background: #4c8492;
+        position: absolute;
+        top: 0;
+        left: -45%;
+        transform: rotate(-45deg);
+        z-index: 1;
+    }
+
+    div#lines:after{
+        content: '';
+        height: 60px;
+        width: 100%;
+        background: #fffde8;
+        position: absolute;
+        top: 60px;
+        z-index: 1;
+        
+    }
+
+    img#img-joao{
+        height: 150px;
+        width: 150px;
+        position: absolute;
+        z-index: 2;
+        top: 15px;
+        left: 15px;
+        background: url(../resources/joao.jpg);
+        background-size: cover;
+        border: 3px solid #fffde8;
+        border-radius: 50%;
+    }
+}
+
+

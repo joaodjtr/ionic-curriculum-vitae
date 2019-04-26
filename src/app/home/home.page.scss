@@ -5,7 +5,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: #f4faff;
+    background: #f5ffff;
 }
 
 h1{
@@ -22,6 +22,11 @@ div#content-align{
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+
+    a{
+        text-decoration: none;
+        color: none;
+    }  
 
     div.box-person{
         margin: 10px 20px 10px 20px;
@@ -47,7 +52,7 @@ div#content-align{
         }
     }
 
-    div.box-person:nth-child(2) img{
+    a:nth-child(2) .box-person img{
         background: url(../Resources/Gustavo.jpg);
         background-size: cover;
         background-position: left;
